@@ -42,15 +42,7 @@ namespace Imagenes
 
         private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
         {
-            /*Bitmap bmp = new Bitmap(pictureBox1.Image);
-            Color c = new Color();
-            c = bmp.GetPixel(e.X, e.Y); //Toma el punto donde se hizo click
-            textBox1.Text = c.R.ToString();
-            textBox2.Text = c.G.ToString();
-            textBox3.Text = c.B.ToString();
-            cR = c.R;
-            cG = c.G;
-            cB = c.B;*/
+            //Obtenemos la media por segmentos
             Bitmap bmp = new Bitmap(pictureBox1.Image);
             Color c = new Color();
             int x, y, mR=0, mG=0, mB=0;
