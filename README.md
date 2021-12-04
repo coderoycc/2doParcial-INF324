@@ -1,1 +1,1 @@
-# 2doParcial-INF324
+# Carrera de Informática UMSA
